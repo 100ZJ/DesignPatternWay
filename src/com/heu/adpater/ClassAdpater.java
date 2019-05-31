@@ -1,7 +1,7 @@
 package com.heu.adpater;
 
 /**
- * 类是配置 Adapter
+ * 类适配器模式 ClassAdpater
  */
 public class ClassAdpater extends Adaptee implements Target {
 
