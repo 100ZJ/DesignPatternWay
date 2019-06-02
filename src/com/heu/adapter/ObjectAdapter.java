@@ -1,4 +1,4 @@
-package com.heu.adpater;
+package com.heu.adapter;
 
 /**
  * 对象适配器模式 ObjectAdapter

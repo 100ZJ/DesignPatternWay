@@ -1,4 +1,4 @@
-package com.heu.adpater;
+package com.heu.adapter;
 
 /**
  * Ä¿±ê target
