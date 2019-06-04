@@ -41,18 +41,4 @@ public abstract class Pizza {
         return name;
     }
 
-    public static void main(String[] args) {
-        String a = "1_2_3__";
-        String[] arr = a.split("_");
-        System.out.println(arr.length);
-        for(int i = 0; i < arr.length; i++) {
-//            if(!"".equals(arr[i])) {
-//
-//                System.out.println(arr[i]);
-//            }
-            System.out.println(arr[i]);
-
-        }
-    }
-
 }
