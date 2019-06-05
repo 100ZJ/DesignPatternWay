@@ -15,9 +15,4 @@ public class WeatherStation {
         weatherData.setMeasurements(100,100,100f);
 
     }
-
-
-
-
-
 }
