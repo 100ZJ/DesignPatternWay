@@ -27,8 +27,41 @@ class AdapterTest {
      * @param args
      */
     public static void main(String[] args) {
-        ClassAdpater adpater = new ClassAdpater();
-        adpater.method1();
-        adpater.method2();
+//        ClassAdpater adpater = new ClassAdpater();
+//        adpater.method1();
+//        adpater.method2();
+        int n = test(3);
+        System.out.println(n);
+        Inner inner = new Inner();
+        System.out.println(test(inner).n);
+    }
+
+    private static Integer test(int n) {
+        try{
+            n ++;
+            return n;
+        }catch (Exception e){
+
+        }finally {
+            n--;
+        }
+        return null;
+    }
+
+    private static Inner test(Inner inner) {
+        inner.n =3;
+        try{
+            inner.n++;
+            return inner;
+        }catch (Exception e){
+
+        }finally {
+            inner.n--;
+        }
+        return null;
+    }
+
+    public static class Inner{
+        public int n =0;
     }
 }
