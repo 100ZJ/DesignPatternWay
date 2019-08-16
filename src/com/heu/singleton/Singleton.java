@@ -82,6 +82,7 @@ class Client {
  * 饿汉式单例
  */
 class EagerSingleton {
+    //饿汉模式，类初始化的时候，直接创建类实例
     private static final EagerSingleton instance = new EagerSingleton();
     private EagerSingleton() {}
 
