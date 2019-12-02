@@ -1,6 +1,5 @@
 package com.heu.factory.factoryMethod;
 
-import com.heu.factory.factoryMethod.Pizza;
 
 public abstract class PizzaStore {
 
