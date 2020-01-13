@@ -35,6 +35,9 @@ class PizzaStoreTest {
         SimplePizzaFactory simplePizzaFactory = new SimplePizzaFactory();
         PizzaStore pizzaStore = new PizzaStore(simplePizzaFactory);
         pizzaStore.orderPizza("cheese");
+        System.out.println("---------------------------------");
+        pizzaStore.orderPizza("com.heu.factory.simpleFactory.CheesePizza");
+
     }
 
 

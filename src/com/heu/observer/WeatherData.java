@@ -17,7 +17,7 @@ public class WeatherData implements Subject {
     private float humidity;
 
     public WeatherData() {
-        observers = new ArrayList<Observer>();
+        observers = new ArrayList<>();
     }
 
     @Override
